@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=VT323';
+a{
+  color: #c5c5c5;
+}
+a:hover{
+  color: #ffffff;
+}
+a:visited{
+  color: #ffffff;
+}
+body{
+  font-family: 'VT323', monospace;
+  background: #000000;
+  height: 100%;
+}
+.container {
+  margin: auto;
+  padding: 10%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.form-control{
+  font-family: 'VT323', monospace;
+}
+.container2 {
+  margin: 6% auto;
+  display: block;
+  width: 400px;
+}
+.btn-outline{
+  font-family: 'VT323', monospace;
+  background: none;
+  color: #ffffff;
+  border: 1px solid #ffffff; 
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa;
+}
+.dud {
+  color: #757575;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
